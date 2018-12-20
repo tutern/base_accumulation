@@ -29,3 +29,6 @@ gcc c.o r.o -o r.out
 #AAA
 #AAAA
 #.......
+
+##ipcs -a  查看 ipcs 相关信息
+#ipcsrm -m pid  删除一个正在运行的进程 不知道可以用 ps -ef 查看 pid
